@@ -235,6 +235,7 @@ public class FileEncryptor {
 			}
 		}
     	
+    	file.delete();
     	//System.out.println("Success Decrypt");
     	return true;
     }
